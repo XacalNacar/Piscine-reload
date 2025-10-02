@@ -1,1 +1,2 @@
-find . -depth \( -type f -name "*-*" -print -delete \) -o \( -type d -name "*-*~" -print -delete \) -o \( -name "#*#" -print -delete \) 
+#!?/bin/bash
+find . \( -type d -name "*~" -print -delete \) -o \( -name "#*#" -print -delete \) 
